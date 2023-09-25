@@ -113,3 +113,17 @@ figure img {
 
 @media (min-width: 1400px) {
 }
+
+/* DEBUG */
+.debug [class^='container'] {
+  padding: 10px;
+  border: 1px solid cornflowerblue;
+}
+.debug .row {
+  padding: 10px;
+  border: 1px solid magenta;
+}
+.debug [class^='col'] {
+  padding: 10px;
+  border: 1px solid greenyellow;
+}
