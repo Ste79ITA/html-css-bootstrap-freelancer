@@ -64,6 +64,25 @@ figure img {
   border: 1px solid white;
 }
 
+/* CONTACT ME */
+
+input,
+textarea {
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.submit {
+  background-color: #1abc9c;
+  color: white;
+  display: block;
+  width: 57px;
+  line-height: 34px;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
   .logo {
